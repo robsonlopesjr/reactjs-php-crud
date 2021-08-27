@@ -1,13 +1,21 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
-import { Table, Titulo } from './styles.js';
+import {
+    Container,
+    ContainerTitle,
+    Titulo,
+    ContainerButton,
+    ButtonSuccess,
+    Table,
+} from './styles.js';
 
 export const Home = () => {
 
     const [data, setData] = useState([]);
 
     const getProdutos = async () => {
-        fetch("http://localhost/celke/index.php")
+        fetch("http://localhost/api/index.php")
             .then((resp) => resp.json())
             .then((responseJSON) => (
                 setData(responseJSON.records)
@@ -19,8 +27,18 @@ export const Home = () => {
     }, []);
 
     return (
-        <div>
-            <Titulo>Listar</Titulo>
+        <Container>
+            <ContainerTitle>
+                <Titulo>Listar</Titulo>
+                <ContainerButton>
+                    <Link to="/cadastrar">
+                        <ButtonSuccess>
+                            Cadastrar
+                        </ButtonSuccess>
+                    </Link>
+                </ContainerButton>
+            </ContainerTitle>
+
             <Table>
                 <thead>
                     <tr>
@@ -41,6 +59,6 @@ export const Home = () => {
                     ))}
                 </tbody>
             </Table>
-        </div>
+        </Container>
     );
 }
