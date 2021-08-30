@@ -51,6 +51,21 @@ export const ButtonPrimary = styled.button`
   }
 `;
 
+export const ButtonWarning = styled.button`
+  background-color: #FFF;
+  color: #FFC107;
+  padding: 5px 8px;
+  border: 1px solid #FFC107;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+
+  &:hover {
+    background-color: #FFC107;
+    color: #FFF;
+  }
+`;
+
 export const Table = styled.table`
   width: 100%;
 

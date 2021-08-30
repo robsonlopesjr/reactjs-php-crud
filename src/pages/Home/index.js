@@ -8,6 +8,7 @@ import {
     ContainerButton,
     ButtonSuccess,
     ButtonPrimary,
+    ButtonWarning,
     Table,
 } from './styles.js';
 
@@ -59,7 +60,11 @@ export const Home = () => {
                                 <Link to={"/visualizar/" + produto.id}>
                                     <ButtonPrimary>Visualizar</ButtonPrimary>
                                 </Link>
-                                Editar Apagar
+                                {" "}
+                                <Link to={"/editar/" + produto.id}>
+                                    <ButtonWarning>Editar</ButtonWarning>
+                                </Link>
+                                Apagar
                             </td>
                         </tr>
                     ))}
