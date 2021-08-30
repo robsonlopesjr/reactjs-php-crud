@@ -7,6 +7,7 @@ import {
     Titulo,
     ContainerButton,
     ButtonSuccess,
+    ButtonPrimary,
     Table,
 } from './styles.js';
 
@@ -54,7 +55,12 @@ export const Home = () => {
                             <td>{produto.id}</td>
                             <td>{produto.titulo}</td>
                             <td>{produto.descricao}</td>
-                            <td>Visualizar Editar Apagar</td>
+                            <td>
+                                <Link to={"/visualizar/" + produto.id}>
+                                    <ButtonPrimary>Visualizar</ButtonPrimary>
+                                </Link>
+                                Editar Apagar
+                            </td>
                         </tr>
                     ))}
                 </tbody>

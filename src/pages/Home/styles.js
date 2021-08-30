@@ -36,6 +36,21 @@ export const ButtonSuccess = styled.button`
   }
 `;
 
+export const ButtonPrimary = styled.button`
+  background-color: #FFF;
+  color: #0D6EFD;
+  padding: 5px 8px;
+  border: 1px solid #0D6EFD;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+
+  &:hover {
+    background-color: #0D6EFD;
+    color: #FFF;
+  }
+`;
+
 export const Table = styled.table`
   width: 100%;
 
