@@ -66,6 +66,41 @@ export const ButtonWarning = styled.button`
   }
 `;
 
+export const ButtonDanger = styled.button`
+  background-color: #FFF;
+  color: #DC3545;
+  padding: 5px 8px;
+  border: 1px solid #DC3545;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+
+  &:hover {
+    background-color: #DC3545;
+    color: #FFF;
+  }
+`;
+
+export const AlertSuccess = styled.p`
+  background-color: #D1E7DD;
+  color: #0F5132;
+
+  margin: 20px 0;
+  border: 1px solid #BADBCC;
+  border-radius: 4px;
+  padding: 7px;
+`;
+
+export const AlertDanger = styled.p`
+  background-color: #F8D7DA;
+  color: #842029;
+
+  margin: 20px 0;
+  border: 1px solid #F5C2C7;
+  border-radius: 4px;
+  padding: 7px;
+`;
+
 export const Table = styled.table`
   width: 100%;
 
