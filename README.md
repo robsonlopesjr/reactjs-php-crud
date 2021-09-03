@@ -3,6 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=php&message=language&color=blue&style=for-the-badge&logo=PHP"/>
   <img src="https://img.shields.io/static/v1?label=javascript&message=language&color=yellow&style=for-the-badge&logo=JS"/>
+  <img src="https://img.shields.io/static/v1?label=reactjs&message=framework&color=yellow&style=for-the-badge&logo=React"/>
   <img src="http://img.shields.io/static/v1?label=STATUS&message=Concluido&color=green&style=for-the-badge"/>
 </p>
 
@@ -88,7 +89,7 @@ yarn start
 
 ---
 
-## 🛠 Linguagens, dependencias e libs utilizadas
+## 🛠 Linguagens, dependências e libs utilizadas
 
 :warning: [MySQL](https://www.mysql.com/)
 
