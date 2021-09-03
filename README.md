@@ -1,70 +1,113 @@
-# Getting Started with Create React App
+<h1>CRUD de Produtos feito com ReactJS + PHP</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img src="https://img.shields.io/static/v1?label=php&message=language&color=blue&style=for-the-badge&logo=PHP"/>
+  <img src="https://img.shields.io/static/v1?label=javascript&message=language&color=yellow&style=for-the-badge&logo=JS"/>
+  <img src="http://img.shields.io/static/v1?label=STATUS&message=Concluido&color=green&style=for-the-badge"/>
+</p>
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+### 📖 Tópicos
 
-### `yarn start`
+:small_blue_diamond: [Descrição do projeto](#-descrição-do-projeto)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+:small_blue_diamond: [Funcionalidades](#-funcionalidades)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+:small_blue_diamond: [Pré-requisitos](#-pré-requisitos)
 
-### `yarn test`
+:small_blue_diamond: [Como execultar a aplicação](#-como-execultar-a-aplicação)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+:small_blue_diamond: [Casos de uso](#-casos-de-uso)
 
-### `yarn build`
+:small_blue_diamond: [Linguagens, dependencias e libs utilizadas](#-linguagens-dependencias-e-libs-utilizadas)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+:small_blue_diamond: [Autor](#-autor)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 💻 Descrição do projeto
 
-### `yarn eject`
+<p align="justify">
+  Construção de um sistema CRUD de produtos utilizando o ReactJS + PHP
+</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## ⚙️ Funcionalidades
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+:heavy_check_mark: Comunicação ao banco MySQL utilizando PDO.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+:heavy_check_mark: Cadastro de produto.
 
-## Learn More
+:heavy_check_mark: Edição de um produto.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+:heavy_check_mark: Visualização de um produto.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+:heavy_check_mark: Visualização de todos os produtos.
 
-### Code Splitting
+:heavy_check_mark: Apagar um produto.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 🎯 Pré-requisitos
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+:warning: [MySQL](https://www.mysql.com/)
 
-### Making a Progressive Web App
+:warning: [PHP](https://www.php.net/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+:warning: [ReactJS](https://pt-br.reactjs.org/)
 
-### Advanced Configuration
+:warning: [PHP](https://yarnpkg.com/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## ▶️ Como execultar a aplicação
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+No terminal, clone o projeto:
 
-### `yarn build` fails to minify
+```
+git clone https://github.com/robsonlopesjr/reactjs-php-crud
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Em seguida inicie a api em PHP subindo o servidor local (localhost)
+
+Depois inicie o projeto reactjs
+
+```
+yarn start
+```
+
+---
+
+## 📌 Casos de uso
+
+👍 Projeto inspirado no vídeo do youtube => https://www.youtube.com/watch?v=3h43URUkUjI da Celke.
+
+💬 Trata-se de um sistema CRUD de produtos utilizando o ReactJS + PHP.
+
+---
+
+## 🛠 Linguagens, dependencias e libs utilizadas
+
+:warning: [MySQL](https://www.mysql.com/)
+
+:warning: [PHP](https://www.php.net/)
+
+:warning: [ReactJS](https://pt-br.reactjs.org/)
+
+:warning: [Yarn](https://yarnpkg.com/)
+
+---
+
+## 🎓 Autor
+
+<a href="https://www.instagram.com/robson.junior.184/">
+ <img style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/69487360?s=400&u=7956928a6764b5ab125fccfa6350c58e3414e2ff&v=4" width="100px;" alt=""/>
+ <br />
+ <sub><b>Robson Júnior</b></sub></a>
+ <br />
+
+[![Linkedin Badge](https://img.shields.io/badge/LinkedIn-Robson-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/robsonlopesjr)](https://www.linkedin.com/in/robsonlopesjr)
+
+---
